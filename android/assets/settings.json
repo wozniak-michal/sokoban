@@ -1,0 +1,5 @@
+{
+	title: Sokoban,
+	version: 1.0,
+	maxUndoMoves: 10
+}

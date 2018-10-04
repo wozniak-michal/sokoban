@@ -1,0 +1,114 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	dimbo_30: {
+		file: dimbo_30.fnt
+	}
+	dimbo_40: {
+		file: dimbo_40.fnt
+	}
+	dimbo_50: {
+		file: dimbo_50.fnt
+	}
+	dimbo_60: {
+		file: dimbo_60.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	white: { r: 1, g: 1, b: 1, a: 1 }
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	alpha_half: {
+		name: white,
+		color: { r: 0, g: 0, b: 0, a: 0.5 }
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {}
+	dialog_button: {
+		up: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: dimbo_40
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	arrow_left: {
+		imageUp: left_green
+	}
+	arrow_right: {
+		imageUp: right_green
+	}
+	arrow_up: {
+		imageUp: up_green
+	}
+	arrow_down: {
+		imageUp: down_green
+	}
+	confirm : {
+		imageUp: confirm
+	}
+	reject : { 
+		imageUp: reject
+	}
+	solve: {
+		imageUp: solve_gold,
+		imageDisabled: solve_gray
+	}
+	undo: {
+		imageUp: undo_green,
+		imageDisabled: undo_gray
+	}
+	exit : {
+		imageUp: home_green
+	}
+	restart : {
+		imageUp: refresh_green
+	}
+	facebook: {
+		imageUp: facebook
+	}
+	info: {
+		imageUp: info_green
+	}
+	info_gold: {
+		imageUp: info_gold
+	}
+	question: {
+		imageUp: question_green
+	}
+	locked: {
+		imageUp: locked
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: dimbo_50
+	}
+	label_small: {
+		font: dimbo_30
+	}
+	label_medium: {
+		font: dimbo_40
+	}
+	label_large: {
+		font: dimbo_60
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: { vScroll: default-scroll, vScrollKnob: default-round-large }
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		titleFont: dimbo_50,
+		background: button_hexagon,
+		stageBackground: alpha_half
+	}
+}
+}
